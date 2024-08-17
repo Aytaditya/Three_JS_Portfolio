@@ -29,6 +29,15 @@ import soundoff from './soundoff.png'
 
 // my imports
 import c from './c.png'
+import bootstrap from './bootstrap.png'
+import blockchain from './blockchain.png'
+import cpp from './cpp.png'
+import firebase from './firebase.png'
+import docker from './docker.png'
+import postman from './postman.png'
+import python from './python.png'
+import java from './java.png'
+import svelte from './svelte.png'
 
 export {
     css,
@@ -59,5 +68,14 @@ export {
     contact,
     soundon,
     soundoff,
-    c
+    c,
+    bootstrap,
+    blockchain,
+    cpp,
+    firebase,
+    docker,
+    postman,
+    python,
+    java,
+    svelte,
 }

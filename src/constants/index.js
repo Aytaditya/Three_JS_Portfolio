@@ -24,15 +24,19 @@ import {
     tailwindcss,
     threads,
     typescript,
-    c
+    c,
+    bootstrap,
+    blockchain,
+    cpp,
+    firebase,
+    docker,
+    postman,
+    python,
+    java,
+    svelte
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
     {
         imageUrl: express,
         name: "Express",
@@ -51,6 +55,11 @@ export const skills = [
     {
         imageUrl: html,
         name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
         type: "Frontend",
     },
     {
@@ -74,6 +83,11 @@ export const skills = [
         type: "Backend",
     },
     {
+        imageUrl: cpp,
+        name: "C++",
+        type: "Language",
+    },
+    {
         imageUrl: react,
         name: "React",
         type: "Frontend",
@@ -89,15 +103,55 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: firebase,
+        name: "Firebase",
+        type: "Database",
+    },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "Docker",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Language",
+    },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Language",
+    },
+    {
+        imageUrl: postman,
+        name: "Postman",
+        type: "Postman",
+    },
+    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
     {
+        imageUrl: blockchain,
+        name: "Solidity",
+        type: "Blockchain",
+    },
+    {
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: svelte,
+        name: "Svelte",
+        type: "Frontend",
+    },
 ];
 
 export const experiences = [
