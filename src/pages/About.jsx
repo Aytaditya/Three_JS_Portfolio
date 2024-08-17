@@ -82,7 +82,7 @@ const About = () => {
                   </p>
                 </div>
 
-                <ul className='my-5 list-disc ml-5 space-y-2'>
+                {/* <ul className='my-5 list-disc ml-5 space-y-2'>
                   {experience.points.map((point, index) => (
                     <li
                       key={`experience-point-${index}`}
@@ -91,7 +91,7 @@ const About = () => {
                       {point}
                     </li>
                   ))}
-                </ul>
+                </ul> */}
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>

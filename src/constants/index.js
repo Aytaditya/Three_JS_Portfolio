@@ -156,57 +156,58 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Backend Developer Intern",
+        company_name: "Travellio",
         icon: starbucks,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        date: "August 2024 - Present",
+        
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Blochain Lead",
+        company_name: "GDSC Club, VIT Chennai",
         icon: tesla,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        date: "July 2024 - Present",
+       
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "Blockchain Developer",
+        company_name: "TSoC'24",
         icon: shopify,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        date: "July 2024 - Present",
+       
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "Technical Programming Member",
+        company_name: "ioTHINC Club, VIT Chennai",
+        icon: meta,
+        iconBg: "#f2f2ac",
+        date: "June 2023 - Present",
+    },
+    {
+        title: "Web Development Intern",
+        company_name: "Zvia Tech",
         icon: meta,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        date: "Mar 2024 - Aug 2024",
     },
+    {
+        title: "Full Stack Development Intern",
+        company_name: "Natt Labs",
+        icon: meta,
+        iconBg: "#edb2ea",
+        date: "Oct 2023 - Mar 2024",
+    },
+    {
+        title: "Frontend Development Intern",
+        company_name: "Anakage Tech. Limited",
+        icon: meta,
+        iconBg: "#f7d1ab",
+        date: "July 2023 - Sep 2023",
+    },
+    
 ];
 
 export const socialLinks = [
@@ -229,45 +230,45 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: snapgram,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Avax Gods',
+        description: 'Avax-Gods combines blockchain technology with the excitement of NFT card gaming, allowing users to engage in strategic battles by connecting their Core or MetaMask wallet. Create or join thrilling matches where every move counts.',
+        link: 'https://github.com/Aytaditya/Avax_Gods',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Velocity Mart',
+        description: 'VelocityMart is a centralized platform that enables students to easily browse, negotiate, and access a variety of resources, from books to sports equipment, promoting sustainable resource sharing within the campus community.',
+        link: 'https://github.com/Rohan231203/Solvathon-VelocityMart',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-blue',
+        name: 'Krypt',
+        description: 'Krypt is a user-friendly platform that lets you easily send cryptocurrency between wallets, using MetaMask for secure and reliable transactions. Connect your wallet, send crypto, and track transactions with ease.',
+        link: 'https://github.com/Aytaditya/krypt',
     },
     {
         iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Rescue Rover',
+        description: 'Rescue Rover autonomously explores hazardous environments, equipped with gas sensors, obstacle detection. It provides real-time data on gas concentrations, offering a comprehensive system overview and experimental evaluation.',
+        link: 'https://github.com/aniket0880/Rescue-Rover',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Git Forge',
+        description: 'Developed a GitHub-inspired web app using the MERN stack, Tailwind CSS, and the GitHub API, with Docker integration and GitHub authentication via Passport.js. The app also includes a profile liking system.',
+        link: 'https://github.com/Aytaditya/GitForge',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Hither',
+        description: 'Hither is a MERN stack-based chat application that enables seamless real-time messaging with a user-friendly interface. Users can create accounts, set up profiles, and engage in one-on-one conversations.',
+        link: 'https://github.com/Aytaditya/Hither-ChattingWebApplication',
     }
 ];
