@@ -24,52 +24,52 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     setCurrentAnimation("hit");
+  
+    emailjs.send(
+      'service_cervgyi',
+      'template_dyxqvjj',
+      {
+        from_name: form.name,
+        to_name: 'Aditya',
+        from_email: form.email,
+        to_email: 'adityaaryan531@gmail.com',
+        message: form.message,
+      },
+      '6NcXIcSJRbAwBJVkw'
+    )
+    .then((response) => {
+      console.log("Email sent successfully:", response);
+      setLoading(false);
+      showAlert({
+        show: true,
+        text: "Thank you for your message 😃",
+        type: "success",
+      });
+    
+      setTimeout(() => {
+        hideAlert();
+        setCurrentAnimation("idle");
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      }, 3000);
+    })
+    .catch((error) => {
+      console.error("Error sending email:", error);
+      setLoading(false);
+      setCurrentAnimation("idle");
+    
+      showAlert({
+        show: true,
+        text: "I didn't receive your message 😢",
+        type: "danger",
+      });
+    });
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "JavaScript Mastery",
-          from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          setLoading(false);
-          showAlert({
-            show: true,
-            text: "Thank you for your message 😃",
-            type: "success",
-          });
-
-          setTimeout(() => {
-            hideAlert(false);
-            setCurrentAnimation("idle");
-            setForm({
-              name: "",
-              email: "",
-              message: "",
-            });
-          }, [3000]);
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-          setCurrentAnimation("idle");
-
-          showAlert({
-            show: true,
-            text: "I didn't receive your message 😢",
-            type: "danger",
-          });
-        }
-      );
-  };
+  }
+  
 
   return (
     <section className='relative flex lg:flex-row flex-col max-container'>
