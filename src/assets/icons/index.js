@@ -27,6 +27,9 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 
+// my imports
+import c from './c.png'
+
 export {
     css,
     express,
@@ -55,5 +58,6 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    c
 }

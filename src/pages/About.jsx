@@ -15,15 +15,14 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Aditya
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+        I am a Pre-Final year electrical engineering student at Vellore Institute of Technology.
         </p>
       </div>
 
@@ -39,6 +38,7 @@ const About = () => {
                   src={skill.imageUrl}
                   alt={skill.name}
                   className='w-1/2 h-1/2 object-contain'
+                  title={skill.name}
                 />
               </div>
             </div>
@@ -49,10 +49,10 @@ const About = () => {
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>
+          {/* <p>
             I've worked with all sorts of companies, leveling up my skills and
             teaming up with smart people. Here's the rundown:
-          </p>
+          </p> */}
         </div>
 
         <div className='mt-12 flex'>
@@ -62,15 +62,7 @@ const About = () => {
                 key={experience.company_name}
                 date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
-                icon={
-                  <div className='flex justify-center items-center w-full h-full'>
-                    <img
-                      src={experience.icon}
-                      alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
-                    />
-                  </div>
-                }
+                
                 contentStyle={{
                   borderBottom: "8px",
                   borderStyle: "solid",
