@@ -9,8 +9,11 @@ const HomeInfo = ({ currentStage }) => {
         Hi, I'm
         <span className='font-semibold mx-2 text-white'>Aditya Aryan</span>
         👋
+        {/* <br />
+        A full Stack and Blockchain developer. */}
         <br />
-        A full Stack and Blockchain developer
+        Use ➡️ to navigate around the island.
+
       </h1>
     );
 
