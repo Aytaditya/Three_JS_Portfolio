@@ -22,7 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        I am a Pre-Final year electrical engineering student at Vellore Institute of Technology.
+        I am a Full Stack and Blockchain Developer currently in my pre-final year of Electrical Engineering at Vellore Institute of Technology.
         </p>
       </div>
 
